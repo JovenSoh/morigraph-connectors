@@ -2,7 +2,7 @@
 
 Public installation packages for morigraph, a hosted MCP gateway for enabled AI tools, connected accounts, workspace context, memory, files and reusable skills.
 
-This repository contains installation metadata and public agent instructions. It does not contain the morigraph backend, credentials or reviewer access. Marketplace submissions are being prepared; this repository does not imply marketplace approval or a completed host compatibility certification.
+This repository contains installation metadata and public agent instructions. It does not contain the morigraph backend, credentials or reviewer access. Cursor received our marketplace application on 10 November 2026; review is pending. This repository does not imply marketplace approval or a completed host compatibility certification.
 
 ## Connect
 
@@ -20,7 +20,9 @@ The root plugin.json and mcp.json use the Agent Plugins format. Follow Cursor's 
 gemini extensions install https://github.com/JovenSoh/morigraph-connectors
 ```
 
-Complete the MCP OAuth sign-in in Gemini CLI. Native installation, OAuth and first-task verification are still part of release validation. The root gemini-extension.json configures the same production gateway.
+Launch `gemini`, complete your Gemini sign-in, then run `/mcp auth brainlet`. Sign in to morigraph in the browser and choose the intended workspace. Return to Gemini and run `/mcp` to refresh/check its tools. The root gemini-extension.json configures the production gateway.
+
+Installation from this public repository and discovery of the MCP server, context and skill were verified with Gemini CLI 0.67.0 on 10 November 2026. In our isolated test, the personal Google sign-in path returned an unsupported-client error before MCP authentication could complete. Native OAuth and a first model-driven task are still unverified; installation success does not establish those checks.
 
 ### Claude Code and Codex
 
