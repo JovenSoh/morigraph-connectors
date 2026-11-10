@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "brainlet",
+  "version": "1.0.1",
+  "description": "morigraph connects your agent to enabled AI tools, connected accounts, workspace files, memory and skills.",
+  "author": {
+    "name": "KAI XIANG TEO",
+    "email": "joven@morigraph.com",
+    "url": "https://morigraph.com/"
+  },
+  "homepage": "https://morigraph.com/",
+  "keywords": [
+    "mcp",
+    "memory",
+    "files",
+    "workspace",
+    "skills"
+  ]
+}

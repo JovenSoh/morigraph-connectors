@@ -1,0 +1,11 @@
+{
+  "name": "morigraph",
+  "version": "1.0.1",
+  "description": "AI tools, connected accounts, files, memory and skills through morigraph.",
+  "mcpServers": {
+    "brainlet": {
+      "httpUrl": "https://morigraph.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
